@@ -10,7 +10,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM tbltransaksi_penjualan_2359201020
   <title>Document</title>
 </head>
 <body>
-  <h1>Destaaa</h1>
+  
   <a href="tambahdatabarangelektronik.php">Tambah Data Barang Elektronik</a> <br /> <br />
   <table width='80%' border=1>
     <tr>

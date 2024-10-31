@@ -11,7 +11,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM tblelectronik_2359201020 ORDER BY
   <title>Document</title>
 </head>
 <body>
-  <h1>Destaaa</h1>
+  
   <a href="tambahdatabarangelektronik.php">Tambah Data Barang Elektronik</a> <br /> <br />
   <table width='80%' border=1>
     <tr>

@@ -32,6 +32,6 @@ $result = mysqli_query($mysqli, "SELECT * FROM tblcustomer_2359201020 ORDER BY i
     }
     ?>
   </table>
-  <a href="index.php">Kembali ke menu utama</a>
+  <a href="../index.php">Kembali ke menu utama</a>
 </body>
 </html>

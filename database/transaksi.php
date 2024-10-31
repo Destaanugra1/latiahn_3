@@ -28,11 +28,10 @@ $result = mysqli_query($mysqli, "SELECT * FROM tabel_detailtransaksi_235920120 O
         echo "<td>".$user_data['kdelektronik_020']."</td>";
         echo "<td>".$user_data['jumlahbeli_020']."</td>";
         echo "<td>".$user_data['hargabeli_020']."</td>";  
-          
         echo "<td><a href='editdatabarangelektronik.php?no_order_020=$user_data[no_order_020]'>Edit</a> | <a href='deletedatabarangelektronik.php?no_order_020=$user_data[no_order_020]'>Delete</a></td></tr>";        
     }
     ?>
   </table>
-  <a href="index.php">Kembali ke menu utama</a>
+  <a href="../index.php">Kembali ke menu utama</a>
 </body>
 </html>

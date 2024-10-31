@@ -31,6 +31,6 @@ $result = mysqli_query($mysqli, "SELECT * FROM tblkasir_2359201020 ORDER BY dbka
     }
     ?>
   </table>
-  <a href="index.php">Kembali ke menu utama</a>
+  <a href="../index.php">Kembali ke menu utama</a>
 </body>
 </html>

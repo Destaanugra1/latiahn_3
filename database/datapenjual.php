@@ -33,6 +33,6 @@ $result = mysqli_query($mysqli, "SELECT * FROM tbltransaksi_penjualan_2359201020
     }
     ?>
   </table>
-  <a href="index.php">Kembali ke menu utama</a>
+  <a href="../index.php">Kembali ke menu utama</a>
 </body>
 </html>

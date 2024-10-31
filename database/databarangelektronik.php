@@ -1,6 +1,6 @@
 <?php  
 
-include_once('koneksi.php');
+include_once('../koneksi.php');
 $result = mysqli_query($mysqli, "SELECT * FROM tblelectronik_2359201020 ORDER BY kdeletronik_020 DESC");
 ?>
 <!DOCTYPE html>

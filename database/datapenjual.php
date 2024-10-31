@@ -1,5 +1,5 @@
 <?php  
-include_once('koneksi.php');
+include_once('../koneksi.php');
 $result = mysqli_query($mysqli, "SELECT * FROM tbltransaksi_penjualan_2359201020 ORDER BY no_order_020 DESC");
 ?>
 <!DOCTYPE html>

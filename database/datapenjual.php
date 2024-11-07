@@ -29,7 +29,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM tbltransaksi_penjualan_2359201020
         echo "<td>".$user_data['idcustemer_020']."</td>";
         echo "<td>".$user_data['uang_muka_020']."</td>";  
         echo "<td>".$user_data['idkasir_020']."</td>";  
-        echo "<td><a href='editdatabarangelektronik.php?no_order_020=$user_data[no_order_020]'>Edit</a> | <a href='deletedatabarangelektronik.php?no_order_020=$user_data[no_order_020]'>Delete</a></td></tr>";        
+        echo "<td><a href='../edit/ubahdatapenjual.php?no_order_020=$user_data[no_order_020]'>Edit</a> | <a href='deletedatabarangelektronik.php?no_order_020=$user_data[no_order_020]'>Delete</a></td></tr>";        
     }
     ?>
   </table>

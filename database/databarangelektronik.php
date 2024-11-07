@@ -17,6 +17,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM tblelectronik_2359201020 ORDER BY
     <tr>
       <th>Kode Elektronik</th>
       <th>Nama Elektronik</th>
+      <th>Jenis</th>
       <th>Harga</th>
       <th>Stok</th>
       <th>Update</th>
@@ -29,7 +30,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM tblelectronik_2359201020 ORDER BY
         echo "<td>".$user_data['jeniseletronik_020']."</td>";
         echo "<td>".$user_data['hargaeletronik_020']."</td>";  
         echo "<td>".$user_data['stok_020']."</td>";  
-        echo "<td><a href='editdatabarangelektronik.php?kdeletronik_020=$user_data[kdeletronik_020]'>Edit</a> | <a href='deletedatabarangelektronik.php?kdeletronik_020=$user_data[kdeletronik_020]'>Delete</a></td></tr>";        
+        echo "<td><a href='../edit/ubahdataelctronik.php?kdeletronik_020=$user_data[kdeletronik_020]'>Edit</a> | <a href='deletedatabarangelektronik.php?kdeletronik_020=$user_data[kdeletronik_020]'>Delete</a></td></tr>";        
     }
     ?>
   </table>

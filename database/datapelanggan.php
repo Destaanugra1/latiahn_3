@@ -28,7 +28,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM tblcustomer_2359201020 ORDER BY i
         echo "<td>".$user_data['namacustemer_020']."</td>";
         echo "<td>".$user_data['alamat_020']."</td>";
         echo "<td>".$user_data['notelepon_020']."</td>";  
-        echo "<td><a href='editdatabarangelektronik.php?idcastomer_020=$user_data[idcastomer_020]'>Edit</a> | <a href='deletedatabarangelektronik.php?idcastomer_020=$user_data[idcastomer_020]'>Delete</a></td></tr>";        
+        echo "<td><a href='../edit/ubahdatapelanggan.php?idcastomer_020=$user_data[idcastomer_020]'>Edit</a> | <a href='deletedatabarangelektronik.php?idcastomer_020=$user_data[idcastomer_020]'>Delete</a></td></tr>";        
     }
     ?>
   </table>

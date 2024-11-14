@@ -13,6 +13,7 @@
     <li> <a href="database/datapelanggan.php">Data pelanggan</a></li>
     <li> <a href="database/datapenjual.php">Data Penjual Electronik</a></li>
     <li> <a href="database/transaksi.php">Data Transaksi</a></li>
+    <li> <a href="database/dataAdmin.php">Data Admin</a></li>
   </ul>
 </body>
 </html>

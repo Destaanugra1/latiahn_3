@@ -11,7 +11,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM tabel_detailtransaksi_235920120 O
 </head>
 <body>
   
-  <a href="tambahdatabarangelektronik.php">Tambah Data Barang Elektronik</a> <br /> <br />
+  <a href="../tambah//tambahtransaksi.php">Tambah Data Barang Elektronik</a> <br /> <br />
   <table width='80%' border=1>
     <tr>
       <th>No Order</th>

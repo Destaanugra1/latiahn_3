@@ -11,7 +11,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM tbltransaksi_penjualan_2359201020
 </head>
 <body>
   
-  <a href="tambahdatabarangelektronik.php">Tambah Data Barang Elektronik</a> <br /> <br />
+  <a href="../tambah/tamahpenjual.php">Tambah Data Barang Elektronik</a> <br /> <br />
   <table width='80%' border=1>
     <tr>
       <th>No Order</th>
@@ -29,7 +29,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM tbltransaksi_penjualan_2359201020
         echo "<td>".$user_data['idcustemer_020']."</td>";
         echo "<td>".$user_data['uang_muka_020']."</td>";  
         echo "<td>".$user_data['idkasir_020']."</td>";  
-        echo "<td><a href='../edit/ubahdatapenjual.php?no_order_020=$user_data[no_order_020]'>Edit</a> | <a href='deletedatabarangelektronik.php?no_order_020=$user_data[no_order_020]'>Delete</a></td></tr>";        
+        echo "<td><a href='../edit/ubahdatapenjual.php?no_order_020=$user_data[no_order_020]'>Edit</a> | <a href='../tambah/actionDelete/deletepenjual.php?no_order_020=$user_data[no_order_020]'>Delete</a></td></tr>";        
     }
     ?>
   </table>
